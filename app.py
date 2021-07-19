@@ -24,9 +24,9 @@ def create_poster():
 
     # Instanitate an iPoster
     my_poster = iPoster(title="Research poster title; state the main topic of your� study", # Title of your poster
-                    authors_dict={"Inter Name" : "University Name", # Authors in {student, mentors, PI} order
-                                  "Researcher Name" : "University Name",
-                                  "Mentor (Primary Investigator) Name" : "Lawrence Berkeley National Laboratory"},
+                    authors_dict={"Rachel Payne" : "Boston University", # Authors in {student, mentors, PI} order
+                                  "Masa Watanabe" : "Fort Hays State University ",
+                                  "Silvia Crivelli" : "Lawrence Berkeley National Laboratory"},
                     logo = "hood.png", # Home institution logo
                     banner_color=colors.DOE_GREEN, # Color of banner header; colors has preset colors
                     text_color=colors.WHITE)
